@@ -2,13 +2,15 @@
 
 ## Visão Geral
 
+Projeto desenvolvido para disciplina de Sistemas Operacionais da UFCG
+
 O objetivo do projeto é analisar quantitativamente o trade-off entre a taxa de page faults e o overhead computacional de algoritmos de substituição de páginas.
 
 Serão comparados diferentes algoritmos sob múltiplos padrões de carga de trabalho e diferentes tamanhos de memória.
 
 ## Objetivos
 
-- Implementar algoritmos de substituição de páginas (ex: FIFO, LRU, CLOCK, etc.)
+- Implementar algoritmos de substituição de páginas (ex: FIFO, LRU, CLOCK,)
 - Gerar workloads sintéticas com diferentes padrões de localidade
 - Medir taxa de page faults em diferentes configurações de memória
 - Medir overhead computacional utilizando microbenchmark
