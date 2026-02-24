@@ -34,4 +34,6 @@ Fase inicial de configuração do projeto.
 
 ## Tecnologias Usadas
 
-Em desenvolvimento.
+
+- Java
+- Maven
