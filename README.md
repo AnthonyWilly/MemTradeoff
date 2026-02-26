@@ -37,3 +37,4 @@ Fase inicial de configuração do projeto.
 
 - Java
 - Maven
+- Python

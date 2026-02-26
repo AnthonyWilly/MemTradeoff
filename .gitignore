@@ -45,3 +45,6 @@ buildNumber.properties
 .classpath
 .settings/
 .vscode/
+
+#Workloads em .csv
+data/
