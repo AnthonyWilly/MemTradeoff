@@ -18,19 +18,34 @@ public class FIFO implements AlgoritmoSubstituicaoPages {
     private int pageFaults;
 
     private final Set<Integer> frames;
-    private final Queue<Integer> queue; // cabeça = página mais antiga
+    private final Queue<Integer> queue; // Head sendo a página mais antiga
 
-    public AlgoritmoFIFO(int capacity) {
-        this.capacity  = capacity;
-        this.frames    = new HashSet<>();
-        this.queue     = new LinkedList<>();
+    public FIFO(int capacity) {
+        this.capacity   = capacity;
+        this.frames     = new HashSet<>();
+        this.queue      = new LinkedList<>();
         this.pageFaults = 0;
     }
 
     @Override
     public boolean accesso(int page) {
-        // TODO
-        throw new UnsupportedOperationException("FIFO.accesso() não implementado");
+        if (frames.contains(page)) {
+            // HIT
+            return false;
+        }
+
+        // FAULT
+        pageFaults++;
+
+        if (frames.size() == capacity) {
+            // Remove a página mais antiga (Head da fila)
+            int victim = queue.poll();
+            frames.remove(victim);
+        }
+
+        frames.add(page);
+        queue.add(page);
+        return true;
     }
 
     @Override
@@ -45,7 +60,8 @@ public class FIFO implements AlgoritmoSubstituicaoPages {
 
     @Override
     public void reset() {
-        // TODO
-        throw new UnsupportedOperationException("FIFO.reset() não implementado");
+        frames.clear();
+        queue.clear();
+        pageFaults = 0;
     }
 }
