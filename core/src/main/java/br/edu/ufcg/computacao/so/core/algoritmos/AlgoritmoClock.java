@@ -16,7 +16,7 @@ import java.util.Map;
  *   1. Se bit do slot atual == 1, zerar o bit, avançar o ponteiro (segunda chance).
  *   2. Se bit do slot atual == 0, este é a vítima; substituir e avançar o ponteiro.
  */
-public class Clock implements AlgoritmoSubstituicaoPages {
+public class AlgoritmoClock implements AlgoritmoSubstituicaoPages {
 
     private final int capacity;
     private int pageFaults;
@@ -26,7 +26,7 @@ public class Clock implements AlgoritmoSubstituicaoPages {
     private final boolean[] refBit;   // bits de referência
     private final Map<Integer, Integer> pageToSlot; // page → índice no array
 
-    public Clock(int capacity) {
+    public AlgoritmoClock(int capacity) {
         this.capacity   = capacity;
         this.pages      = new int[capacity];
         this.refBit     = new boolean[capacity];

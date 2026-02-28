@@ -2,35 +2,35 @@ package core.src.main.java.br.edu.ufcg.computacao.so.core.algoritmos;
 
 import core.src.main.java.br.edu.ufcg.computacao.so.core.api.AlgoritmoSubstituicaoPages;
 
-import java.util.LinkedHashSet;
-import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
- * LRU (Least Recently Used) — substitui a página usada há mais tempo.
+ * FIFO (First-In, First-Out) — substitui a página que está há mais tempo na memória.
  *
- * Estrutura: LinkedHashSet em ordem de acesso.
- *   - Primeiro elemento  = LRU (vítima)
- *   - Último elemento    = MRU (mais recente)
+ * Estrutura: fila de inserção + set para detecção de hit em O(1).
  */
-public class LRU implements AlgoritmoSubstituicaoPages {
+public class AlgoritmoFIFO implements AlgoritmoSubstituicaoPages {
 
     private final int capacity;
     private int pageFaults;
 
-    private final LinkedHashSet<Integer> frames;
+    private final Set<Integer> frames;
+    private final Queue<Integer> queue; // Head sendo a página mais antiga
 
-    public LRU(int capacity) {
+    public AlgoritmoFIFO(int capacity) {
         this.capacity   = capacity;
-        this.frames     = new LinkedHashSet<>();
+        this.frames     = new HashSet<>();
+        this.queue      = new LinkedList<>();
         this.pageFaults = 0;
     }
 
     @Override
     public boolean accesso(int page) {
         if (frames.contains(page)) {
-            // HIT, reposiciona para o final (MRU)
-            frames.remove(page);
-            frames.add(page);
+            // HIT
             return false;
         }
 
@@ -38,12 +38,13 @@ public class LRU implements AlgoritmoSubstituicaoPages {
         pageFaults++;
 
         if (frames.size() == capacity) {
-            // Remove o primeiro elemento (LRU)
-            Iterator<Integer> it = frames.iterator();
-            frames.remove(it.next());
+            // Remove a página mais antiga (Head da fila)
+            int victim = queue.poll();
+            frames.remove(victim);
         }
 
         frames.add(page);
+        queue.add(page);
         return true;
     }
 
@@ -60,6 +61,7 @@ public class LRU implements AlgoritmoSubstituicaoPages {
     @Override
     public void reset() {
         frames.clear();
+        queue.clear();
         pageFaults = 0;
     }
 }

@@ -12,7 +12,7 @@ import java.util.Map;
  *   - frequency  : page → contagem de acessos
  *   - lastAccess : page → instante lógico do último acesso (desempate: remove a menos recente)
  */
-public class LFU implements AlgoritmoSubstituicaoPages {
+public class AlgoritmoLFU implements AlgoritmoSubstituicaoPages {
 
     private final int capacity;
     private int pageFaults;
@@ -21,7 +21,7 @@ public class LFU implements AlgoritmoSubstituicaoPages {
     private final Map<Integer, Integer> frequency;  // page freq
     private final Map<Integer, Long>    lastAccess; // page instante
 
-    public LFU(int capacity) {
+    public AlgoritmoLFU(int capacity) {
         this.capacity   = capacity;
         this.frequency  = new HashMap<>();
         this.lastAccess = new HashMap<>();

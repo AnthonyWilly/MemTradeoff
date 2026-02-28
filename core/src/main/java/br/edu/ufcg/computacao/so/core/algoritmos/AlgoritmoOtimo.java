@@ -15,7 +15,7 @@ import java.util.Set;
  * Política: ao ocorrer um fault, substituir a página cujo PRÓXIMO uso
  * é o mais distante no futuro (ou que nunca mais será usada).
  */
-public class Otimo implements AlgoritmoSubstituicaoPages {
+public class AlgoritmoOtimo implements AlgoritmoSubstituicaoPages {
 
     private final int capacity;
     private int pageFaults;
@@ -29,7 +29,7 @@ public class Otimo implements AlgoritmoSubstituicaoPages {
      */
     private Map<Integer, List<Integer>> usosNextos;
 
-    public Otimo(int capacity) {
+    public AlgoritmoOtimo(int capacity) {
         this.capacity     = capacity;
         this.frames       = new HashSet<>();
         this.usosNextos   = new HashMap<>();
