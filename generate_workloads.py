@@ -16,7 +16,7 @@ import csv
 # ─────────────────────────────────────────────
 # Seed global — edite aqui para mudar
 # ─────────────────────────────────────────────
-SEED = 42
+SEED = 7942
 
 # ─────────────────────────────────────────────
 # Configuração dos workloads a gerar
