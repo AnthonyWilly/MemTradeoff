@@ -13,10 +13,10 @@ Serão comparados diferentes algoritmos sob múltiplos padrões de carga de trab
 - Implementar algoritmos de substituição de páginas (ex: FIFO, LRU, CLOCK, Random, Bélády) ✔️
 - Gerar workloads sintéticas com diferentes padrões de localidade ✔️
 - Medir taxa de page faults em diferentes configurações de memória ✔️
-- Medir overhead computacional utilizando microbenchmark
+- Medir overhead computacional utilizando microbenchmark✔️
 - Analisar os resultados em forma de relatório
 
-## Estrutura Planejada
+## Estrutura
 
 - `core/` — Implementação dos algoritmos
 - `simulator/` — Execução dos experimentos e coleta de faults
@@ -40,6 +40,7 @@ Fase de teste dos algoritmos
 - Java
 - Maven
 - Python
+- JMH
 
 <!-- ENV_START -->
 ## Ambiente de Testes
