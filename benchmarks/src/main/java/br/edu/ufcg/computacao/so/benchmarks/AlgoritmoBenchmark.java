@@ -30,9 +30,9 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 @State(Scope.Thread)
-@Fork(value = 5)
-@Warmup(iterations = 5, time = 5)
-@Measurement(iterations = 10, time = 5)
+@Fork(value = 2)
+@Warmup(iterations = 5, time = 1)
+@Measurement(iterations = 5, time = 1)
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
 public class AlgoritmoBenchmark {
@@ -54,7 +54,7 @@ public class AlgoritmoBenchmark {
     private int[] sequence;
     private List<Integer> sequenceList;
 
-    @Setup(Level.Iteration)
+    @Setup(Level.Trial)
     public void setup() throws Exception {
         sequenceList = carregarCsv("data/workloads/" + workload + ".csv");
         sequence = new int[sequenceList.size()];
@@ -101,78 +101,6 @@ public class AlgoritmoBenchmark {
         AlgoritmoOtimo algo = new AlgoritmoOtimo(frames);
         algo.carregarReferencias(sequenceList);
         for (int page : sequence) blackhole.consume(algo.accesso(page));
-    }
-
-    // ── Benchmarks de memoria (heap alocado por execucao) ────────────────────
-    //
-    // Estrategia: forca GC antes, mede heap livre, executa, forca GC de novo,
-    // mede heap livre novamente. A diferenca e o heap retido pelo algoritmo
-    // durante a execucao. Retorna KB para facilitar leitura.
-    //
-    // Nota: medicao manual de heap nao e tao precisa quanto -prof gc, mas suficiente para comparar a ordem de grandeza entre algoritmos.
-
-    @Benchmark
-    @BenchmarkMode(Mode.SingleShotTime)
-    @Warmup(iterations = 0)
-    @Measurement(iterations = 1)
-    public long memFIFO(Blackhole blackhole) {
-        return medirMemoria(new AlgoritmoFIFO(frames), blackhole);
-    }
-
-    @Benchmark
-    @BenchmarkMode(Mode.SingleShotTime)
-    @Warmup(iterations = 0)
-    @Measurement(iterations = 1)
-    public long memLRU(Blackhole blackhole) {
-        return medirMemoria(new AlgoritmoLRU(frames), blackhole);
-    }
-
-    @Benchmark
-    @BenchmarkMode(Mode.SingleShotTime)
-    @Warmup(iterations = 0)
-    @Measurement(iterations = 1)
-    public long memLFU(Blackhole blackhole) {
-        return medirMemoria(new AlgoritmoLFU(frames), blackhole);
-    }
-
-    @Benchmark
-    @BenchmarkMode(Mode.SingleShotTime)
-    @Warmup(iterations = 0)
-    @Measurement(iterations = 1)
-    public long memClock(Blackhole blackhole) {
-        return medirMemoria(new AlgoritmoClock(frames), blackhole);
-    }
-
-    @Benchmark
-    @BenchmarkMode(Mode.SingleShotTime)
-    @Warmup(iterations = 0)
-    @Measurement(iterations = 1)
-    public long memRandom(Blackhole blackhole) {
-        return medirMemoria(new AlgoritmoRandom(frames, 42L), blackhole);
-    }
-
-    @Benchmark
-    @BenchmarkMode(Mode.SingleShotTime)
-    @Warmup(iterations = 0)
-    @Measurement(iterations = 1)
-    public long memOtimo(Blackhole blackhole) {
-        AlgoritmoOtimo algo = new AlgoritmoOtimo(frames);
-        algo.carregarReferencias(sequenceList);
-        return medirMemoria(algo, blackhole);
-    }
-
-    private long medirMemoria(AlgoritmoSubstituicaoPages algo, Blackhole blackhole) {
-        Runtime rt = Runtime.getRuntime();
-        System.gc();
-        long antes = rt.totalMemory() - rt.freeMemory();
-
-        for (int page : sequence) blackhole.consume(algo.accesso(page));
-
-        System.gc();
-        long depois = rt.totalMemory() - rt.freeMemory();
-
-        // Retorna bytes retidos (pode ser negativo se GC coletou outras coisas — normal)
-        return depois - antes;
     }
 
     private static List<Integer> carregarCsv(String caminho) throws Exception {
