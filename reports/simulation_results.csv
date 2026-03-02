@@ -1,0 +1,961 @@
+workload,workload_type,workload_size,workload_spread,workload_extra,description,algorithm,frames,page_faults,total_accesses,fault_rate_pct
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",FIFO,4,484,500,96.8
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",FIFO,8,459,500,91.8
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",FIFO,16,416,500,83.2
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",FIFO,32,359,500,71.8
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",LRU,4,484,500,96.8
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",LRU,8,457,500,91.4
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",LRU,16,416,500,83.2
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",LRU,32,363,500,72.6
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",LFU,4,476,500,95.2
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",LFU,8,457,500,91.4
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",LFU,16,422,500,84.4
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",LFU,32,354,500,70.8
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",Clock,4,484,500,96.8
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",Clock,8,458,500,91.6
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",Clock,16,418,500,83.6
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",Clock,32,357,500,71.4
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",Random,4,477,500,95.4
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",Random,8,458,500,91.6
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",Random,16,428,500,85.6
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",Random,32,351,500,70.2
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",Otimo,4,412,500,82.4
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",Otimo,8,362,500,72.4
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",Otimo,16,296,500,59.2
+aleatorio_minimo_medio,aleatorio,minimo,medio,,"Acesso aleatorio | Minimo (500 refs, 100 pags)",Otimo,32,211,500,42.2
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",FIFO,4,391,500,78.2
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",FIFO,8,300,500,60.0
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",FIFO,16,99,500,19.8
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",FIFO,32,20,500,4.0
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",LRU,4,395,500,79.0
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",LRU,8,296,500,59.2
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",LRU,16,99,500,19.8
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",LRU,32,20,500,4.0
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",LFU,4,408,500,81.6
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",LFU,8,307,500,61.4
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",LFU,16,115,500,23.0
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",LFU,32,20,500,4.0
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",Clock,4,393,500,78.6
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",Clock,8,298,500,59.6
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",Clock,16,101,500,20.2
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",Clock,32,20,500,4.0
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",Random,4,401,500,80.2
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",Random,8,315,500,63.0
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",Random,16,99,500,19.8
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",Random,32,20,500,4.0
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",Otimo,4,282,500,56.4
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",Otimo,8,166,500,33.2
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",Otimo,16,46,500,9.2
+aleatorio_minimo_restrito,aleatorio,minimo,restrito,,"Acesso aleatorio | Minimo (500 refs, 20 pags)",Otimo,32,20,500,4.0
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",FIFO,4,1923,2000,96.15
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",FIFO,8,1843,2000,92.15
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",FIFO,16,1698,2000,84.9
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",FIFO,32,1364,2000,68.2
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",LRU,4,1923,2000,96.15
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",LRU,8,1847,2000,92.35
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",LRU,16,1696,2000,84.8
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",LRU,32,1362,2000,68.1
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",LFU,4,1912,2000,95.6
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",LFU,8,1833,2000,91.65
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",LFU,16,1688,2000,84.4
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",LFU,32,1384,2000,69.2
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",Clock,4,1923,2000,96.15
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",Clock,8,1845,2000,92.25
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",Clock,16,1697,2000,84.85
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",Clock,32,1356,2000,67.8
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",Random,4,1919,2000,95.95
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",Random,8,1852,2000,92.6
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",Random,16,1696,2000,84.8
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",Random,32,1334,2000,66.7
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",Otimo,4,1629,2000,81.45
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",Otimo,8,1395,2000,69.75
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",Otimo,16,1092,2000,54.6
+aleatorio_pequeno_medio,aleatorio,pequeno,medio,,"Acesso aleatorio | Pequeno (2k refs, 100 pags)",Otimo,32,724,2000,36.2
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",FIFO,4,1598,2000,79.9
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",FIFO,8,1192,2000,59.6
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",FIFO,16,413,2000,20.65
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",FIFO,32,20,2000,1.0
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",LRU,4,1600,2000,80.0
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",LRU,8,1185,2000,59.25
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",LRU,16,421,2000,21.05
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",LRU,32,20,2000,1.0
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",LFU,4,1607,2000,80.35
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",LFU,8,1218,2000,60.9
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",LFU,16,443,2000,22.15
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",LFU,32,20,2000,1.0
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",Clock,4,1593,2000,79.65
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",Clock,8,1202,2000,60.1
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",Clock,16,403,2000,20.15
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",Clock,32,20,2000,1.0
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",Random,4,1597,2000,79.85
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",Random,8,1193,2000,59.65
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",Random,16,390,2000,19.5
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",Random,32,20,2000,1.0
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",Otimo,4,1117,2000,55.85
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",Otimo,8,654,2000,32.7
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",Otimo,16,156,2000,7.8
+aleatorio_pequeno_restrito,aleatorio,pequeno,restrito,,"Acesso aleatorio | Pequeno (2k refs, 20 pags)",Otimo,32,20,2000,1.0
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",FIFO,4,1986,2000,99.3
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",FIFO,8,1969,2000,98.45
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",FIFO,16,1930,2000,96.5
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",FIFO,32,1875,2000,93.75
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",LRU,4,1986,2000,99.3
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",LRU,8,1969,2000,98.45
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",LRU,16,1934,2000,96.7
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",LRU,32,1872,2000,93.6
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",LFU,4,1991,2000,99.55
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",LFU,8,1975,2000,98.75
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",LFU,16,1944,2000,97.2
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",LFU,32,1870,2000,93.5
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",Clock,4,1986,2000,99.3
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",Clock,8,1969,2000,98.45
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",Clock,16,1931,2000,96.55
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",Clock,32,1871,2000,93.55
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",Random,4,1987,2000,99.35
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",Random,8,1966,2000,98.3
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",Random,16,1950,2000,97.5
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",Random,32,1869,2000,93.45
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",Otimo,4,1837,2000,91.85
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",Otimo,8,1726,2000,86.3
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",Otimo,16,1576,2000,78.8
+aleatorio_pequeno_amplo,aleatorio,pequeno,amplo,,"Acesso aleatorio | Pequeno, universo amplo (2k refs, 500 pags)",Otimo,32,1395,2000,69.75
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",FIFO,4,9983,10000,99.83
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",FIFO,8,9969,10000,99.69
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",FIFO,16,9932,10000,99.32
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",FIFO,32,9844,10000,98.44
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",LRU,4,9983,10000,99.83
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",LRU,8,9969,10000,99.69
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",LRU,16,9932,10000,99.32
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",LRU,32,9841,10000,98.41
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",LFU,4,9984,10000,99.84
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",LFU,8,9960,10000,99.6
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",LFU,16,9921,10000,99.21
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",LFU,32,9841,10000,98.41
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",Clock,4,9983,10000,99.83
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",Clock,8,9969,10000,99.69
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",Clock,16,9932,10000,99.32
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",Clock,32,9843,10000,98.43
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",Random,4,9981,10000,99.81
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",Random,8,9964,10000,99.64
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",Random,16,9922,10000,99.22
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",Random,32,9834,10000,98.34
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",Otimo,4,9600,10000,96.0
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",Otimo,8,9319,10000,93.19
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",Otimo,16,8952,10000,89.52
+aleatorio_medio_enorme,aleatorio,medio,enorme,,"Acesso aleatorio | Medio, universo enorme (10k refs, 2000 pags)",Otimo,32,8443,10000,84.43
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",FIFO,4,9637,10000,96.37
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",FIFO,8,9234,10000,92.34
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",FIFO,16,8427,10000,84.27
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",FIFO,32,6858,10000,68.58
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",LRU,4,9636,10000,96.36
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",LRU,8,9237,10000,92.37
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",LRU,16,8403,10000,84.03
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",LRU,32,6835,10000,68.35
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",LFU,4,9605,10000,96.05
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",LFU,8,9179,10000,91.79
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",LFU,16,8361,10000,83.61
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",LFU,32,6758,10000,67.58
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",Clock,4,9637,10000,96.37
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",Clock,8,9236,10000,92.36
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",Clock,16,8400,10000,84.0
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",Clock,32,6857,10000,68.57
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",Random,4,9636,10000,96.36
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",Random,8,9218,10000,92.18
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",Random,16,8431,10000,84.31
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",Random,32,6876,10000,68.76
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",Otimo,4,8139,10000,81.39
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",Otimo,8,6936,10000,69.36
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",Otimo,16,5427,10000,54.27
+aleatorio_medio_medio,aleatorio,medio,medio,,"Acesso aleatorio | Medio (10k refs, 100 pags)",Otimo,32,3532,10000,35.32
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",FIFO,4,8022,10000,80.22
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",FIFO,8,6027,10000,60.27
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",FIFO,16,1976,10000,19.76
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",FIFO,32,20,10000,0.2
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",LRU,4,8007,10000,80.07
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",LRU,8,6012,10000,60.12
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",LRU,16,2038,10000,20.38
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",LRU,32,20,10000,0.2
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",LFU,4,7971,10000,79.71
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",LFU,8,5884,10000,58.84
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",LFU,16,1945,10000,19.45
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",LFU,32,20,10000,0.2
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",Clock,4,8012,10000,80.12
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",Clock,8,6062,10000,60.62
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",Clock,16,2019,10000,20.19
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",Clock,32,20,10000,0.2
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",Random,4,7970,10000,79.7
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",Random,8,5987,10000,59.87
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",Random,16,2088,10000,20.88
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",Random,32,20,10000,0.2
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",Otimo,4,5610,10000,56.1
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",Otimo,8,3246,10000,32.46
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",Otimo,16,713,10000,7.13
+aleatorio_medio_restrito,aleatorio,medio,restrito,,"Acesso aleatorio | Medio (10k refs, 20 pags)",Otimo,32,20,10000,0.2
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",FIFO,4,9906,10000,99.06
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",FIFO,8,9835,10000,98.35
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",FIFO,16,9673,10000,96.73
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",FIFO,32,9365,10000,93.65
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",LRU,4,9906,10000,99.06
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",LRU,8,9835,10000,98.35
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",LRU,16,9673,10000,96.73
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",LRU,32,9370,10000,93.7
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",LFU,4,9919,10000,99.19
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",LFU,8,9844,10000,98.44
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",LFU,16,9686,10000,96.86
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",LFU,32,9361,10000,93.61
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",Clock,4,9906,10000,99.06
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",Clock,8,9835,10000,98.35
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",Clock,16,9675,10000,96.75
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",Clock,32,9365,10000,93.65
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",Random,4,9914,10000,99.14
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",Random,8,9834,10000,98.34
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",Random,16,9671,10000,96.71
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",Random,32,9365,10000,93.65
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",Otimo,4,9185,10000,91.85
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",Otimo,8,8626,10000,86.26
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",Otimo,16,7874,10000,78.74
+aleatorio_medio_amplo,aleatorio,medio,amplo,,"Acesso aleatorio | Medio, universo amplo (10k refs, 500 pags)",Otimo,32,6889,10000,68.89
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",FIFO,4,99805,100000,99.805
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",FIFO,8,99621,100000,99.621
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",FIFO,16,99231,100000,99.231
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",FIFO,32,98404,100000,98.404
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",LRU,4,99805,100000,99.805
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",LRU,8,99621,100000,99.621
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",LRU,16,99234,100000,99.234
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",LRU,32,98407,100000,98.407
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",LFU,4,99809,100000,99.809
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",LFU,8,99585,100000,99.585
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",LFU,16,99183,100000,99.183
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",LFU,32,98411,100000,98.411
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",Clock,4,99805,100000,99.805
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",Clock,8,99621,100000,99.621
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",Clock,16,99233,100000,99.233
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",Clock,32,98404,100000,98.404
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",Random,4,99823,100000,99.823
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",Random,8,99617,100000,99.617
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",Random,16,99187,100000,99.187
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",Random,32,98378,100000,98.378
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",Otimo,4,96001,100000,96.001
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",Otimo,8,93174,100000,93.174
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",Otimo,16,89359,100000,89.359
+aleatorio_grande_enorme,aleatorio,grande,enorme,,"Acesso aleatorio | Grande, universo enorme (100k refs, 2000 pags)",Otimo,32,84219,100000,84.219
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",FIFO,4,95975,100000,95.975
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",FIFO,8,92045,100000,92.045
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",FIFO,16,84036,100000,84.036
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",FIFO,32,67965,100000,67.965
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",LRU,4,95983,100000,95.983
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",LRU,8,92041,100000,92.041
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",LRU,16,84054,100000,84.054
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",LRU,32,68124,100000,68.124
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",LFU,4,95933,100000,95.933
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",LFU,8,91998,100000,91.998
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",LFU,16,84146,100000,84.146
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",LFU,32,68112,100000,68.112
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",Clock,4,95986,100000,95.986
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",Clock,8,92043,100000,92.043
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",Clock,16,84026,100000,84.026
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",Clock,32,68138,100000,68.138
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",Random,4,95942,100000,95.942
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",Random,8,92007,100000,92.007
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",Random,16,83967,100000,83.967
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",Random,32,68102,100000,68.102
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",Otimo,4,81355,100000,81.355
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",Otimo,8,69318,100000,69.318
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",Otimo,16,54015,100000,54.015
+aleatorio_grande_medio,aleatorio,grande,medio,,"Acesso aleatorio | Grande (100k refs, 100 pags)",Otimo,32,34791,100000,34.791
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",FIFO,4,99221,100000,99.221
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",FIFO,8,98376,100000,98.376
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",FIFO,16,96727,100000,96.727
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",FIFO,32,93549,100000,93.549
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",LRU,4,99220,100000,99.22
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",LRU,8,98385,100000,98.385
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",LRU,16,96737,100000,96.737
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",LRU,32,93557,100000,93.557
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",LFU,4,99172,100000,99.172
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",LFU,8,98374,100000,98.374
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",LFU,16,96754,100000,96.754
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",LFU,32,93501,100000,93.501
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",Clock,4,99220,100000,99.22
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",Clock,8,98380,100000,98.38
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",Clock,16,96731,100000,96.731
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",Clock,32,93526,100000,93.526
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",Random,4,99176,100000,99.176
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",Random,8,98369,100000,98.369
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",Random,16,96694,100000,96.694
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",Random,32,93610,100000,93.61
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",Otimo,4,91859,100000,91.859
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",Otimo,8,86248,100000,86.248
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",Otimo,16,78897,100000,78.897
+aleatorio_grande_amplo,aleatorio,grande,amplo,,"Acesso aleatorio | Grande, universo amplo (100k refs, 500 pags)",Otimo,32,68929,100000,68.929
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",FIFO,4,992080,1000000,99.208
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",FIFO,8,983846,1000000,98.3846
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",FIFO,16,967808,1000000,96.7808
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",FIFO,32,935605,1000000,93.5605
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",LRU,4,992079,1000000,99.2079
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",LRU,8,983849,1000000,98.3849
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",LRU,16,967815,1000000,96.7815
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",LRU,32,935637,1000000,93.5637
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",LFU,4,992065,1000000,99.2065
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",LFU,8,983959,1000000,98.3959
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",LFU,16,967906,1000000,96.7906
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",LFU,32,935834,1000000,93.5834
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",Clock,4,992084,1000000,99.2084
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",Clock,8,983859,1000000,98.3859
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",Clock,16,967829,1000000,96.7829
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",Clock,32,935542,1000000,93.5542
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",Random,4,991987,1000000,99.1987
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",Random,8,983845,1000000,98.3845
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",Random,16,967837,1000000,96.7837
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",Random,32,935713,1000000,93.5713
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",Otimo,4,918568,1000000,91.8568
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",Otimo,8,862828,1000000,86.2828
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",Otimo,16,788872,1000000,78.8872
+aleatorio_extragrande_amplo,aleatorio,extragrande,amplo,,"Acesso aleatorio | Massivo, universo amplo (1M refs, 500 pags)",Otimo,32,690133,1000000,69.0133
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",FIFO,4,500,500,100.0
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",FIFO,8,500,500,100.0
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",FIFO,16,500,500,100.0
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",FIFO,32,20,500,4.0
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",LRU,4,500,500,100.0
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",LRU,8,500,500,100.0
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",LRU,16,500,500,100.0
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",LRU,32,20,500,4.0
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",LFU,4,500,500,100.0
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",LFU,8,500,500,100.0
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",LFU,16,500,500,100.0
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",LFU,32,20,500,4.0
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",Clock,4,500,500,100.0
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",Clock,8,500,500,100.0
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",Clock,16,500,500,100.0
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",Clock,32,20,500,4.0
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",Random,4,499,500,99.8
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",Random,8,456,500,91.2
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",Random,16,204,500,40.8
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",Random,32,20,500,4.0
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",Otimo,4,422,500,84.4
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",Otimo,8,320,500,64.0
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",Otimo,16,120,500,24.0
+sequencial_minimo_restrito,sequencial,minimo,restrito,,"Acesso sequencial | Minimo (500 refs, 20 pags)",Otimo,32,20,500,4.0
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",FIFO,4,2000,2000,100.0
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",FIFO,8,2000,2000,100.0
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",FIFO,16,2000,2000,100.0
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",FIFO,32,20,2000,1.0
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",LRU,4,2000,2000,100.0
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",LRU,8,2000,2000,100.0
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",LRU,16,2000,2000,100.0
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",LRU,32,20,2000,1.0
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",LFU,4,2000,2000,100.0
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",LFU,8,2000,2000,100.0
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",LFU,16,2000,2000,100.0
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",LFU,32,20,2000,1.0
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",Clock,4,2000,2000,100.0
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",Clock,8,2000,2000,100.0
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",Clock,16,2000,2000,100.0
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",Clock,32,20,2000,1.0
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",Random,4,1996,2000,99.8
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",Random,8,1814,2000,90.7
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",Random,16,777,2000,38.85
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",Random,32,20,2000,1.0
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",Otimo,4,1685,2000,84.25
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",Otimo,8,1268,2000,63.4
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",Otimo,16,436,2000,21.8
+sequencial_pequeno_restrito,sequencial,pequeno,restrito,,"Acesso sequencial | Pequeno (2k refs, 20 pags)",Otimo,32,20,2000,1.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",FIFO,4,10000,10000,100.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",FIFO,8,10000,10000,100.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",FIFO,16,10000,10000,100.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",FIFO,32,10000,10000,100.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",LRU,4,10000,10000,100.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",LRU,8,10000,10000,100.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",LRU,16,10000,10000,100.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",LRU,32,10000,10000,100.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",LFU,4,10000,10000,100.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",LFU,8,10000,10000,100.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",LFU,16,10000,10000,100.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",LFU,32,10000,10000,100.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",Clock,4,10000,10000,100.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",Clock,8,10000,10000,100.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",Clock,16,10000,10000,100.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",Clock,32,10000,10000,100.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",Random,4,10000,10000,100.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",Random,8,10000,10000,100.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",Random,16,9983,10000,99.83
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",Random,32,9470,10000,94.7
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",Otimo,4,9700,10000,97.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",Otimo,8,9300,10000,93.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",Otimo,16,8500,10000,85.0
+sequencial_medio_medio,sequencial,medio,medio,,"Acesso sequencial | Medio (10k refs, 100 pags)",Otimo,32,6900,10000,69.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",FIFO,4,10000,10000,100.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",FIFO,8,10000,10000,100.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",FIFO,16,10000,10000,100.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",FIFO,32,10000,10000,100.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",LRU,4,10000,10000,100.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",LRU,8,10000,10000,100.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",LRU,16,10000,10000,100.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",LRU,32,10000,10000,100.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",LFU,4,10000,10000,100.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",LFU,8,10000,10000,100.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",LFU,16,10000,10000,100.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",LFU,32,10000,10000,100.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",Clock,4,10000,10000,100.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",Clock,8,10000,10000,100.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",Clock,16,10000,10000,100.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",Clock,32,10000,10000,100.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",Random,4,10000,10000,100.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",Random,8,10000,10000,100.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",Random,16,10000,10000,100.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",Random,32,10000,10000,100.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",Otimo,4,9940,10000,99.4
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",Otimo,8,9860,10000,98.6
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",Otimo,16,9700,10000,97.0
+sequencial_medio_amplo,sequencial,medio,amplo,,"Acesso sequencial | Medio, universo amplo (10k refs, 500 pags)",Otimo,32,9392,10000,93.92
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",FIFO,4,100000,100000,100.0
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",FIFO,8,100000,100000,100.0
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",FIFO,16,100000,100000,100.0
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",FIFO,32,100000,100000,100.0
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",LRU,4,100000,100000,100.0
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",LRU,8,100000,100000,100.0
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",LRU,16,100000,100000,100.0
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",LRU,32,100000,100000,100.0
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",LFU,4,100000,100000,100.0
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",LFU,8,100000,100000,100.0
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",LFU,16,100000,100000,100.0
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",LFU,32,100000,100000,100.0
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",Clock,4,100000,100000,100.0
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",Clock,8,100000,100000,100.0
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",Clock,16,100000,100000,100.0
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",Clock,32,100000,100000,100.0
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",Random,4,100000,100000,100.0
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",Random,8,100000,100000,100.0
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",Random,16,99834,100000,99.834
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",Random,32,94973,100000,94.973
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",Otimo,4,96970,100000,96.97
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",Otimo,8,92930,100000,92.93
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",Otimo,16,84856,100000,84.856
+sequencial_grande_medio,sequencial,grande,medio,,"Acesso sequencial | Grande (100k refs, 100 pags)",Otimo,32,68712,100000,68.712
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",FIFO,4,100000,100000,100.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",FIFO,8,100000,100000,100.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",FIFO,16,100000,100000,100.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",FIFO,32,100000,100000,100.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",LRU,4,100000,100000,100.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",LRU,8,100000,100000,100.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",LRU,16,100000,100000,100.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",LRU,32,100000,100000,100.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",LFU,4,100000,100000,100.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",LFU,8,100000,100000,100.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",LFU,16,100000,100000,100.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",LFU,32,100000,100000,100.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",Clock,4,100000,100000,100.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",Clock,8,100000,100000,100.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",Clock,16,100000,100000,100.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",Clock,32,100000,100000,100.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",Random,4,100000,100000,100.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",Random,8,100000,100000,100.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",Random,16,100000,100000,100.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",Random,32,100000,100000,100.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",Otimo,4,99400,100000,99.4
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",Otimo,8,98600,100000,98.6
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",Otimo,16,97000,100000,97.0
+sequencial_grande_amplo,sequencial,grande,amplo,,"Acesso sequencial | Grande, universo amplo (100k refs, 500 pags)",Otimo,32,93800,100000,93.8
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",FIFO,4,1000000,1000000,100.0
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",FIFO,8,1000000,1000000,100.0
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",FIFO,16,1000000,1000000,100.0
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",FIFO,32,1000000,1000000,100.0
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",LRU,4,1000000,1000000,100.0
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",LRU,8,1000000,1000000,100.0
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",LRU,16,1000000,1000000,100.0
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",LRU,32,1000000,1000000,100.0
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",LFU,4,1000000,1000000,100.0
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",LFU,8,1000000,1000000,100.0
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",LFU,16,1000000,1000000,100.0
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",LFU,32,1000000,1000000,100.0
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",Clock,4,1000000,1000000,100.0
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",Clock,8,1000000,1000000,100.0
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",Clock,16,1000000,1000000,100.0
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",Clock,32,1000000,1000000,100.0
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",Random,4,1000000,1000000,100.0
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",Random,8,1000000,1000000,100.0
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",Random,16,1000000,1000000,100.0
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",Random,32,1000000,1000000,100.0
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",Otimo,4,993988,1000000,99.3988
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",Otimo,8,985976,1000000,98.5976
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",Otimo,16,969952,1000000,96.9952
+sequencial_extragrande_amplo,sequencial,extragrande,amplo,,"Acesso sequencial | Massivo, universo amplo (1M refs, 500 pags)",Otimo,32,937904,1000000,93.7904
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",FIFO,4,1893,2000,94.65
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",FIFO,8,1777,2000,88.85
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",FIFO,16,1591,2000,79.55
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",FIFO,32,1282,2000,64.1
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",LRU,4,1889,2000,94.45
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",LRU,8,1772,2000,88.6
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",LRU,16,1566,2000,78.3
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",LRU,32,1242,2000,62.1
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",LFU,4,1884,2000,94.2
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",LFU,8,1772,2000,88.6
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",LFU,16,1511,2000,75.55
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",LFU,32,984,2000,49.2
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",Clock,4,1892,2000,94.6
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",Clock,8,1775,2000,88.75
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",Clock,16,1584,2000,79.2
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",Clock,32,1260,2000,63.0
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",Random,4,1883,2000,94.15
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",Random,8,1773,2000,88.65
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",Random,16,1577,2000,78.85
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",Random,32,1280,2000,64.0
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",Otimo,4,1555,2000,77.75
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",Otimo,8,1300,2000,65.0
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",Otimo,16,997,2000,49.85
+localidade_pequeno_medio_frequente70,localidade,pequeno,medio,frequente70,"Localidade moderada (70% hot) | Pequeno (2k refs, 200 pags, WS=20%)",Otimo,32,669,2000,33.45
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",FIFO,4,1353,2000,67.65
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",FIFO,8,867,2000,43.35
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",FIFO,16,393,2000,19.65
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",FIFO,32,151,2000,7.55
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",LRU,4,1340,2000,67.0
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",LRU,8,795,2000,39.75
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",LRU,16,218,2000,10.9
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",LRU,32,109,2000,5.45
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",LFU,4,1316,2000,65.8
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",LFU,8,644,2000,32.2
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",LFU,16,197,2000,9.85
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",LFU,32,115,2000,5.75
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",Clock,4,1347,2000,67.35
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",Clock,8,843,2000,42.15
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",Clock,16,263,2000,13.15
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",Clock,32,114,2000,5.7
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",Random,4,1376,2000,68.8
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",Random,8,868,2000,43.4
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",Random,16,353,2000,17.65
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",Random,32,141,2000,7.05
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",Otimo,4,887,2000,44.35
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",Otimo,8,403,2000,20.15
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",Otimo,16,145,2000,7.25
+localidade_pequeno_restrito_frequente90,localidade,pequeno,restrito,frequente90,"Alta localidade (90% hot) | Pequeno, universo restrito (2k refs, 50 pags, WS=20%)",Otimo,32,71,2000,3.55
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",FIFO,4,9860,10000,98.6
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",FIFO,8,9737,10000,97.37
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",FIFO,16,9459,10000,94.59
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",FIFO,32,8927,10000,89.27
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",LRU,4,9860,10000,98.6
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",LRU,8,9732,10000,97.32
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",LRU,16,9463,10000,94.63
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",LRU,32,8918,10000,89.18
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",LFU,4,9866,10000,98.66
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",LFU,8,9711,10000,97.11
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",LFU,16,9386,10000,93.86
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",LFU,32,8696,10000,86.96
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",Clock,4,9860,10000,98.6
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",Clock,8,9734,10000,97.34
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",Clock,16,9461,10000,94.61
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",Clock,32,8917,10000,89.17
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",Random,4,9863,10000,98.63
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",Random,8,9733,10000,97.33
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",Random,16,9428,10000,94.28
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",Random,32,8904,10000,89.04
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",Otimo,4,8932,10000,89.32
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",Otimo,8,8199,10000,81.99
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",Otimo,16,7240,10000,72.4
+localidade_medio_enorme_ws10,localidade,medio,enorme,ws10,"Alta localidade (85% hot) | Medio, universo enorme (10k refs, 2000 pags, WS=10%)",Otimo,32,5997,10000,59.97
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",FIFO,4,9514,10000,95.14
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",FIFO,8,9030,10000,90.3
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",FIFO,16,8077,10000,80.77
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",FIFO,32,6514,10000,65.14
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",LRU,4,9515,10000,95.15
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",LRU,8,9002,10000,90.02
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",LRU,16,8026,10000,80.26
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",LRU,32,6267,10000,62.67
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",LFU,4,9346,10000,93.46
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",LFU,8,8651,10000,86.51
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",LFU,16,7269,10000,72.69
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",LFU,32,4526,10000,45.26
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",Clock,4,9514,10000,95.14
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",Clock,8,9016,10000,90.16
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",Clock,16,8056,10000,80.56
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",Clock,32,6400,10000,64.0
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",Random,4,9539,10000,95.39
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",Random,8,9039,10000,90.39
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",Random,16,8166,10000,81.66
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",Random,32,6461,10000,64.61
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",Otimo,4,7912,10000,79.12
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",Otimo,8,6617,10000,66.17
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",Otimo,16,5038,10000,50.38
+localidade_medio_medio_frequente70,localidade,medio,medio,frequente70,"Localidade moderada (70% hot) | Medio (10k refs, 200 pags, WS=20%)",Otimo,32,3252,10000,32.52
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",FIFO,4,6811,10000,68.11
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",FIFO,8,4240,10000,42.4
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",FIFO,16,1768,10000,17.68
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",FIFO,32,650,10000,6.5
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",LRU,4,6805,10000,68.05
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",LRU,8,3894,10000,38.94
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",LRU,16,927,10000,9.27
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",LRU,32,493,10000,4.93
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",LFU,4,6524,10000,65.24
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",LFU,8,3007,10000,30.07
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",LFU,16,860,10000,8.6
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",LFU,32,466,10000,4.66
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",Clock,4,6813,10000,68.13
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",Clock,8,4042,10000,40.42
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",Clock,16,1135,10000,11.35
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",Clock,32,487,10000,4.87
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",Random,4,6872,10000,68.72
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",Random,8,4244,10000,42.44
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",Random,16,1809,10000,18.09
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",Random,32,637,10000,6.37
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",Otimo,4,4418,10000,44.18
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",Otimo,8,1899,10000,18.99
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",Otimo,16,622,10000,6.22
+localidade_medio_restrito_frequente90,localidade,medio,restrito,frequente90,"Alta localidade (90% hot) | Medio, universo restrito (10k refs, 50 pags, WS=20%)",Otimo,32,226,10000,2.26
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",FIFO,4,9866,10000,98.66
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",FIFO,8,9750,10000,97.5
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",FIFO,16,9514,10000,95.14
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",FIFO,32,9001,10000,90.01
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",LRU,4,9865,10000,98.65
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",LRU,8,9750,10000,97.5
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",LRU,16,9509,10000,95.09
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",LRU,32,8986,10000,89.86
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",LFU,4,9866,10000,98.66
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",LFU,8,9713,10000,97.13
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",LFU,16,9425,10000,94.25
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",LFU,32,8806,10000,88.06
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",Clock,4,9865,10000,98.65
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",Clock,8,9749,10000,97.49
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",Clock,16,9512,10000,95.12
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",Clock,32,9001,10000,90.01
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",Random,4,9880,10000,98.8
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",Random,8,9739,10000,97.39
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",Random,16,9503,10000,95.03
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",Random,32,8986,10000,89.86
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",Otimo,4,8979,10000,89.79
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",Otimo,8,8287,10000,82.87
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",Otimo,16,7382,10000,73.82
+localidade_medio_amplo_ws40,localidade,medio,amplo,ws40,"Localidade moderada (80% hot) | Medio, WS grande (10k refs, 500 pags, WS=40%)",Otimo,32,6184,10000,61.84
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",FIFO,4,98628,100000,98.628
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",FIFO,8,97212,100000,97.212
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",FIFO,16,94458,100000,94.458
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",FIFO,32,88812,100000,88.812
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",LRU,4,98633,100000,98.633
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",LRU,8,97212,100000,97.212
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",LRU,16,94427,100000,94.427
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",LRU,32,88734,100000,88.734
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",LFU,4,98359,100000,98.359
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",LFU,8,96576,100000,96.576
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",LFU,16,93160,100000,93.16
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",LFU,32,86324,100000,86.324
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",Clock,4,98629,100000,98.629
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",Clock,8,97221,100000,97.221
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",Clock,16,94446,100000,94.446
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",Clock,32,88757,100000,88.757
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",Random,4,98629,100000,98.629
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",Random,8,97195,100000,97.195
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",Random,16,94356,100000,94.356
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",Random,32,88861,100000,88.861
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",Otimo,4,89057,100000,89.057
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",Otimo,8,81740,100000,81.74
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",Otimo,16,72115,100000,72.115
+localidade_grande_enorme_ws10,localidade,grande,enorme,ws10,"Alta localidade (85% hot) | Grande, universo enorme (100k refs, 2000 pags, WS=10%)",Otimo,32,59630,100000,59.63
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",FIFO,4,94926,100000,94.926
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",FIFO,8,89856,100000,89.856
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",FIFO,16,80802,100000,80.802
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",FIFO,32,64729,100000,64.729
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",LRU,4,94883,100000,94.883
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",LRU,8,89711,100000,89.711
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",LRU,16,80117,100000,80.117
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",LRU,32,62078,100000,62.078
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",LFU,4,93509,100000,93.509
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",LFU,8,86530,100000,86.53
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",LFU,16,72623,100000,72.623
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",LFU,32,45007,100000,45.007
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",Clock,4,94913,100000,94.913
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",Clock,8,89820,100000,89.82
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",Clock,16,80504,100000,80.504
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",Clock,32,63346,100000,63.346
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",Random,4,94949,100000,94.949
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",Random,8,90056,100000,90.056
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",Random,16,80854,100000,80.854
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",Random,32,64540,100000,64.54
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",Otimo,4,78748,100000,78.748
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",Otimo,8,65739,100000,65.739
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",Otimo,16,49822,100000,49.822
+localidade_grande_medio_frequente70,localidade,grande,medio,frequente70,"Localidade moderada (70% hot) | Grande (100k refs, 200 pags, WS=20%)",Otimo,32,31882,100000,31.882
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",FIFO,4,68466,100000,68.466
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",FIFO,8,41937,100000,41.937
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",FIFO,16,17500,100000,17.5
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",FIFO,32,6217,100000,6.217
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",LRU,4,67903,100000,67.903
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",LRU,8,38093,100000,38.093
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",LRU,16,9039,100000,9.039
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",LRU,32,4503,100000,4.503
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",LFU,4,65220,100000,65.22
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",LFU,8,30284,100000,30.284
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",LFU,16,8473,100000,8.473
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",LFU,32,4491,100000,4.491
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",Clock,4,68339,100000,68.339
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",Clock,8,40153,100000,40.153
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",Clock,16,11037,100000,11.037
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",Clock,32,4516,100000,4.516
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",Random,4,68537,100000,68.537
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",Random,8,41798,100000,41.798
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",Random,16,17485,100000,17.485
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",Random,32,6355,100000,6.355
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",Otimo,4,43894,100000,43.894
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",Otimo,8,18801,100000,18.801
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",Otimo,16,5930,100000,5.93
+localidade_grande_restrito_frequente90,localidade,grande,restrito,frequente90,"Alta localidade (90% hot) | Grande, universo restrito (100k refs, 50 pags, WS=20%)",Otimo,32,1916,100000,1.916
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",FIFO,4,98708,100000,98.708
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",FIFO,8,97399,100000,97.399
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",FIFO,16,94795,100000,94.795
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",FIFO,32,89541,100000,89.541
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",LRU,4,98706,100000,98.706
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",LRU,8,97384,100000,97.384
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",LRU,16,94779,100000,94.779
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",LRU,32,89407,100000,89.407
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",LFU,4,98473,100000,98.473
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",LFU,8,96869,100000,96.869
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",LFU,16,93614,100000,93.614
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",LFU,32,87576,100000,87.576
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",Clock,4,98703,100000,98.703
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",Clock,8,97393,100000,97.393
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",Clock,16,94794,100000,94.794
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",Clock,32,89469,100000,89.469
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",Random,4,98655,100000,98.655
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",Random,8,97399,100000,97.399
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",Random,16,94810,100000,94.81
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",Random,32,89788,100000,89.788
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",Otimo,4,89462,100000,89.462
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",Otimo,8,82378,100000,82.378
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",Otimo,16,73133,100000,73.133
+localidade_grande_amplo_ws40,localidade,grande,amplo,ws40,"Localidade moderada (80% hot) | Grande, WS grande (100k refs, 500 pags, WS=40%)",Otimo,32,61055,100000,61.055
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",FIFO,4,1840,2000,92.0
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",FIFO,8,1693,2000,84.65
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",FIFO,16,1347,2000,67.35
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",FIFO,32,762,2000,38.1
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",LRU,4,1841,2000,92.05
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",LRU,8,1686,2000,84.3
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",LRU,16,1384,2000,69.2
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",LRU,32,778,2000,38.9
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",LFU,4,1936,2000,96.8
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",LFU,8,1887,2000,94.35
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",LFU,16,1814,2000,90.7
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",LFU,32,1665,2000,83.25
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",Clock,4,1839,2000,91.95
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",Clock,8,1688,2000,84.4
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",Clock,16,1359,2000,67.95
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",Clock,32,765,2000,38.25
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",Random,4,1842,2000,92.1
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",Random,8,1678,2000,83.9
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",Random,16,1369,2000,68.45
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",Random,32,828,2000,41.4
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",Otimo,4,1469,2000,73.45
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",Otimo,8,1149,2000,57.45
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",Otimo,16,786,2000,39.3
+fases_pequeno_medio_f4,fases,pequeno,medio,f4,"Fases de acesso | Pequeno, 4 fases (2k refs, 200 pags)",Otimo,32,390,2000,19.5
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",FIFO,4,1674,2000,83.7
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",FIFO,8,1354,2000,67.7
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",FIFO,16,732,2000,36.6
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",FIFO,32,50,2000,2.5
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",LRU,4,1673,2000,83.65
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",LRU,8,1370,2000,68.5
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",LRU,16,740,2000,37.0
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",LRU,32,50,2000,2.5
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",LFU,4,1793,2000,89.65
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",LFU,8,1642,2000,82.1
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",LFU,16,1316,2000,65.8
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",LFU,32,741,2000,37.05
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",Clock,4,1675,2000,83.75
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",Clock,8,1359,2000,67.95
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",Clock,16,732,2000,36.6
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",Clock,32,50,2000,2.5
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",Random,4,1674,2000,83.7
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",Random,8,1366,2000,68.3
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",Random,16,730,2000,36.5
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",Random,32,71,2000,3.55
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",Otimo,4,1214,2000,60.7
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",Otimo,8,783,2000,39.15
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",Otimo,16,315,2000,15.75
+fases_pequeno_restrito_f2,fases,pequeno,restrito,f2,"Fases de acesso | Pequeno, 2 fases (2k refs, 50 pags)",Otimo,32,50,2000,2.5
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",FIFO,4,9928,10000,99.28
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",FIFO,8,9829,10000,98.29
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",FIFO,16,9683,10000,96.83
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",FIFO,32,9365,10000,93.65
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",LRU,4,9927,10000,99.27
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",LRU,8,9828,10000,98.28
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",LRU,16,9678,10000,96.78
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",LRU,32,9360,10000,93.6
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",LFU,4,9970,10000,99.7
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",LFU,8,9947,10000,99.47
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",LFU,16,9902,10000,99.02
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",LFU,32,9829,10000,98.29
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",Clock,4,9928,10000,99.28
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",Clock,8,9828,10000,98.28
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",Clock,16,9681,10000,96.81
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",Clock,32,9363,10000,93.63
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",Random,4,9934,10000,99.34
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",Random,8,9827,10000,98.27
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",Random,16,9690,10000,96.9
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",Random,32,9340,10000,93.4
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",Otimo,4,9188,10000,91.88
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",Otimo,8,8630,10000,86.3
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",Otimo,16,7914,10000,79.14
+fases_medio_enorme_f4,fases,medio,enorme,f4,"Fases de acesso | Medio, 4 fases, universo enorme (10k refs, 2000 pags)",Otimo,32,6975,10000,69.75
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",FIFO,4,9201,10000,92.01
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",FIFO,8,8407,10000,84.07
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",FIFO,16,6814,10000,68.14
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",FIFO,32,3689,10000,36.89
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",LRU,4,9214,10000,92.14
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",LRU,8,8418,10000,84.18
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",LRU,16,6811,10000,68.11
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",LRU,32,3678,10000,36.78
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",LFU,4,9667,10000,96.67
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",LFU,8,9462,10000,94.62
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",LFU,16,9091,10000,90.91
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",LFU,32,8348,10000,83.48
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",Clock,4,9199,10000,91.99
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",Clock,8,8402,10000,84.02
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",Clock,16,6809,10000,68.09
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",Clock,32,3682,10000,36.82
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",Random,4,9255,10000,92.55
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",Random,8,8418,10000,84.18
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",Random,16,6810,10000,68.1
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",Random,32,3734,10000,37.34
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",Otimo,4,7328,10000,73.28
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",Otimo,8,5707,10000,57.07
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",Otimo,16,3703,10000,37.03
+fases_medio_medio_f4,fases,medio,medio,f4,"Fases de acesso | Medio, 4 fases (10k refs, 200 pags)",Otimo,32,1450,10000,14.5
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",FIFO,4,8330,10000,83.3
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",FIFO,8,6695,10000,66.95
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",FIFO,16,3590,10000,35.9
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",FIFO,32,50,10000,0.5
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",LRU,4,8329,10000,83.29
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",LRU,8,6735,10000,67.35
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",LRU,16,3553,10000,35.53
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",LRU,32,50,10000,0.5
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",LFU,4,9024,10000,90.24
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",LFU,8,8208,10000,82.08
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",LFU,16,6642,10000,66.42
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",LFU,32,3643,10000,36.43
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",Clock,4,8323,10000,83.23
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",Clock,8,6709,10000,67.09
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",Clock,16,3540,10000,35.4
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",Clock,32,50,10000,0.5
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",Random,4,8367,10000,83.67
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",Random,8,6738,10000,67.38
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",Random,16,3542,10000,35.42
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",Random,32,71,10000,0.71
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",Otimo,4,6075,10000,60.75
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",Otimo,8,3890,10000,38.9
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",Otimo,16,1463,10000,14.63
+fases_medio_restrito_f2,fases,medio,restrito,f2,"Fases de acesso | Medio, 2 fases (10k refs, 50 pags)",Otimo,32,50,10000,0.5
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",FIFO,4,9349,10000,93.49
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",FIFO,8,8717,10000,87.17
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",FIFO,16,7397,10000,73.97
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",FIFO,32,4883,10000,48.83
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",LRU,4,9354,10000,93.54
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",LRU,8,8716,10000,87.16
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",LRU,16,7435,10000,74.35
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",LRU,32,4913,10000,49.13
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",LFU,4,9782,10000,97.82
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",LFU,8,9702,10000,97.02
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",LFU,16,9544,10000,95.44
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",LFU,32,9237,10000,92.37
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",Clock,4,9350,10000,93.5
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",Clock,8,8707,10000,87.07
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",Clock,16,7408,10000,74.08
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",Clock,32,4889,10000,48.89
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",Random,4,9318,10000,93.18
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",Random,8,8714,10000,87.14
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",Random,16,7434,10000,74.34
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",Random,32,5002,10000,50.02
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",Otimo,4,7610,10000,76.1
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",Otimo,8,6143,10000,61.43
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",Otimo,16,4351,10000,43.51
+fases_medio_amplo_f8,fases,medio,amplo,f8,"Fases de acesso | Medio, 8 fases, universo amplo (10k refs, 500 pags)",Otimo,32,2263,10000,22.63
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",FIFO,4,98403,100000,98.403
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",FIFO,8,96823,100000,96.823
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",FIFO,16,93590,100000,93.59
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",FIFO,32,87240,100000,87.24
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",LRU,4,98400,100000,98.4
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",LRU,8,96810,100000,96.81
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",LRU,16,93571,100000,93.571
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",LRU,32,87295,100000,87.295
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",LFU,4,99422,100000,99.422
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",LFU,8,99211,100000,99.211
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",LFU,16,98806,100000,98.806
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",LFU,32,98016,100000,98.016
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",Clock,4,98399,100000,98.399
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",Clock,8,96813,100000,96.813
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",Clock,16,93576,100000,93.576
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",Clock,32,87277,100000,87.277
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",Random,4,98401,100000,98.401
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",Random,8,96826,100000,96.826
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",Random,16,93581,100000,93.581
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",Random,32,87267,100000,87.267
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",Otimo,4,88375,100000,88.375
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",Otimo,8,80639,100000,80.639
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",Otimo,16,70422,100000,70.422
+fases_grande_enorme_f8,fases,grande,enorme,f8,"Fases de acesso | Grande, 8 fases, universo enorme (100k refs, 2000 pags)",Otimo,32,57120,100000,57.12
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",FIFO,4,91972,100000,91.972
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",FIFO,8,83783,100000,83.783
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",FIFO,16,67850,100000,67.85
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",FIFO,32,35877,100000,35.877
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",LRU,4,91949,100000,91.949
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",LRU,8,83743,100000,83.743
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",LRU,16,67759,100000,67.759
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",LRU,32,36032,100000,36.032
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",LFU,4,96516,100000,96.516
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",LFU,8,94572,100000,94.572
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",LFU,16,90526,100000,90.526
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",LFU,32,82478,100000,82.478
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",Clock,4,91957,100000,91.957
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",Clock,8,83768,100000,83.768
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",Clock,16,67708,100000,67.708
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",Clock,32,35863,100000,35.863
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",Random,4,91971,100000,91.971
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",Random,8,83944,100000,83.944
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",Random,16,67985,100000,67.985
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",Random,32,36004,100000,36.004
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",Otimo,4,72946,100000,72.946
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",Otimo,8,56489,100000,56.489
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",Otimo,16,36424,100000,36.424
+fases_grande_medio_f4,fases,grande,medio,f4,"Fases de acesso | Grande, 4 fases (100k refs, 200 pags)",Otimo,32,13518,100000,13.518
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",FIFO,4,93325,100000,93.325
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",FIFO,8,87004,100000,87.004
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",FIFO,16,74202,100000,74.202
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",FIFO,32,48614,100000,48.614
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",LRU,4,93339,100000,93.339
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",LRU,8,87045,100000,87.045
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",LRU,16,74178,100000,74.178
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",LRU,32,48510,100000,48.51
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",LFU,4,97701,100000,97.701
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",LFU,8,96893,100000,96.893
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",LFU,16,95277,100000,95.277
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",LFU,32,92061,100000,92.061
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",Clock,4,93322,100000,93.322
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",Clock,8,87007,100000,87.007
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",Clock,16,74123,100000,74.123
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",Clock,32,48515,100000,48.515
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",Random,4,93385,100000,93.385
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",Random,8,86961,100000,86.961
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",Random,16,74156,100000,74.156
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",Random,32,48425,100000,48.425
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",Otimo,4,75927,100000,75.927
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",Otimo,8,61089,100000,61.089
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",Otimo,16,42561,100000,42.561
+fases_grande_amplo_f8,fases,grande,amplo,f8,"Fases de acesso | Grande, 8 fases, universo amplo (100k refs, 500 pags)",Otimo,32,20625,100000,20.625
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",FIFO,4,935159,1000000,93.5159
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",FIFO,8,870799,1000000,87.0799
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",FIFO,16,741402,1000000,74.1402
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",FIFO,32,483757,1000000,48.3757
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",LRU,4,935201,1000000,93.5201
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",LRU,8,870852,1000000,87.0852
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",LRU,16,741481,1000000,74.1481
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",LRU,32,483566,1000000,48.3566
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",LFU,4,977585,1000000,97.7585
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",LFU,8,969520,1000000,96.952
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",LFU,16,953455,1000000,95.3455
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",LFU,32,921185,1000000,92.1185
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",Clock,4,935180,1000000,93.518
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",Clock,8,870766,1000000,87.0766
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",Clock,16,741317,1000000,74.1317
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",Clock,32,483399,1000000,48.3399
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",Random,4,935223,1000000,93.5223
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",Random,8,870550,1000000,87.055
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",Random,16,741231,1000000,74.1231
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",Random,32,484507,1000000,48.4507
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",Otimo,4,759052,1000000,75.9052
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",Otimo,8,609861,1000000,60.9861
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",Otimo,16,424068,1000000,42.4068
+fases_extragrande_amplo_f8,fases,extragrande,amplo,f8,"Fases de acesso | Massivo, 8 fases, universo amplo (1M refs, 500 pags)",Otimo,32,203965,1000000,20.3965

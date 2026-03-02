@@ -38,14 +38,47 @@ import java.util.concurrent.TimeUnit;
 public class AlgoritmoBenchmark {
 
     @Param({
-        "random_md_medium",
-        "random_lg_wide",
-        "locality_md_tight_hot90",
-        "locality_lg_medium_hot70",
-        "phases_md_medium_p4",
-        "phases_lg_wide_p8",
-        "sequential_md_medium"
-    })
+    "random_md_medium",
+    "random_lg_wide",
+    "locality_md_tight_hot90",
+    "locality_lg_medium_hot70",
+    "phases_md_medium_p4",
+    "phases_lg_wide_p8",
+    "sequential_md_medium",
+    "locality_lg_huge_ws10",
+    "locality_lg_tight_hot90",
+    "locality_lg_wide_ws40",
+    "locality_md_huge_ws10",
+    "locality_md_medium_hot70",
+    "locality_md_wide_ws40",
+    "locality_sm_medium_hot70",
+    "locality_sm_tight_hot90",
+    "phases_lg_huge_p8",
+    "phases_lg_medium_p4",
+    "phases_md_huge_p4",
+    "phases_md_tight_p2",
+    "phases_md_wide_p8",
+    "phases_sm_medium_p4",
+    "phases_sm_tight_p2",
+    "phases_xl_wide_p8",
+    "random_lg_huge",
+    "random_lg_medium",
+    "random_md_huge",
+    "random_md_tight",
+    "random_md_wide",
+    "random_sm_medium",
+    "random_sm_tight",
+    "random_sm_wide",
+    "random_xl_wide",
+    "random_xs_medium",
+    "random_xs_tight",
+    "sequential_lg_medium",
+    "sequential_lg_wide",
+    "sequential_md_wide",
+    "sequential_sm_tight",
+    "sequential_xl_wide",
+    "sequential_xs_tight"
+})
     private String workload;
 
     @Param({"4", "8", "16", "32"})
