@@ -151,7 +151,7 @@ def main():
 
     for name, tipo, length, universe, kwargs in WORKLOADS:
         # Seed derivada: garante reprodutibilidade independente da ordem
-        derived_seed = SEED + hash(name) & 0xFFFFFFFF
+        derived_seed = (SEED + hash(name)) & 0xFFFFFFFF
         random.seed(derived_seed)
 
         sequence = GENERATORS[tipo](length, universe, **kwargs)
