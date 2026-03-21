@@ -2,66 +2,53 @@ package core.src.main.java.br.edu.ufcg.computacao.so.core.algoritmos;
 
 import core.src.main.java.br.edu.ufcg.computacao.so.core.api.AlgoritmoSubstituicaoPages;
 
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.Arrays;
 
 /**
- * FIFO (First-In, First-Out) — substitui a página que está há mais tempo na memória.
+ * FIFO (First-In, First-Out) — substitui a página mais antiga na memória.
  *
- * Estrutura: fila de inserção + set para detecção de hit em O(1).
+ * Estrutura: array circular simples + ponteiro de cabeça.
  */
 public class AlgoritmoFIFO implements AlgoritmoSubstituicaoPages {
 
     private final int capacity;
     private int pageFaults;
+    private int head; // aponta pro slot mais antigo (próxima vítima)
 
-    private final Set<Integer> frames;
-    private final Queue<Integer> queue; // Head sendo a página mais antiga
+    private final int[] pages; // circular
 
     public AlgoritmoFIFO(int capacity) {
         this.capacity   = capacity;
-        this.frames     = new HashSet<>();
-        this.queue      = new LinkedList<>();
+        this.pages      = new int[capacity];
         this.pageFaults = 0;
+        this.head       = 0;
+
+        Arrays.fill(pages, -1);
     }
 
     @Override
     public boolean accesso(int page) {
-        if (frames.contains(page)) {
-            // HIT
-            return false;
+        for (int i = 0; i < capacity; i++) {
+            if (pages[i] == page) return false; // HIT
         }
 
         // FAULT
         pageFaults++;
-
-        if (frames.size() == capacity) {
-            // Remove a página mais antiga (Head da fila)
-            int victim = queue.poll();
-            frames.remove(victim);
-        }
-
-        frames.add(page);
-        queue.add(page);
+        pages[head] = page;
+        head = (head + 1) % capacity;
         return true;
     }
 
     @Override
-    public int getPageFaults() {
-        return pageFaults;
-    }
+    public int getPageFaults() { return pageFaults; }
 
     @Override
-    public int getCapacity() {
-        return capacity;
-    }
+    public int getCapacity() { return capacity; }
 
     @Override
     public void reset() {
-        frames.clear();
-        queue.clear();
+        Arrays.fill(pages, -1);
         pageFaults = 0;
+        head = 0;
     }
 }
