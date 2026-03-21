@@ -21,7 +21,7 @@ public class Simulator {
     //Ordem dos grupos e tamanhos no relatorio
     private static final List<String> ORDEM_TIPO   = List.of("random", "sequential", "locality", "phases");
     private static final List<String> ORDEM_TAMANHO = List.of("xs", "sm", "md", "lg", "xl");
-    private static final List<String> ORDEM_ALGOS   = List.of("FIFO", "LRU", "LFU", "Clock", "Random");
+    private static final List<String> ORDEM_ALGOS   = List.of("FIFO", "LRU", "LFU", "Clock", "Random", "Otimo");
 
     static class ResultadoSimulacao {
         String workload;
@@ -141,6 +141,9 @@ public class Simulator {
             }
         }
 
+        File pastaResults = new File("results");
+        if (!pastaResults.exists()) pastaResults.mkdir();
+
         System.out.println("\nGerando relatorios...");
         gerarRelatorioTxt(resultados, descricoes);
         gerarRelatorioCsv(resultados, descricoes);
@@ -149,12 +152,13 @@ public class Simulator {
 
     private static List<Integer> carregarReferencias(File arquivo) throws Exception {
         List<Integer> sequencia = new ArrayList<>();
-        BufferedReader br = new BufferedReader(new FileReader(arquivo));
+        try (BufferedReader br = new BufferedReader(new FileReader(arquivo))){
         br.readLine(); // pula cabecalho
         String linha;
         while ((linha = br.readLine()) != null) {
             if (!linha.trim().isEmpty()) sequencia.add(Integer.parseInt(linha.trim()));
         }
+    }
         br.close();
         return sequencia;
     }
@@ -169,13 +173,12 @@ public class Simulator {
         algoritmos.put("LRU",    new AlgoritmoLRU(frames));
         algoritmos.put("LFU",    new AlgoritmoLFU(frames));
         algoritmos.put("Clock",  new AlgoritmoClock(frames));
-        algoritmos.put("Random", new AlgoritmoRandom(frames, 42L));
+        algoritmos.put("Random", new AlgoritmoRandom(frames));
         algoritmos.put("Otimo",  otimo);
 
         for (Map.Entry<String, AlgoritmoSubstituicaoPages> entry : algoritmos.entrySet()) {
             AlgoritmoSubstituicaoPages algo = entry.getValue();
             algo.reset();
-            if (algo instanceof AlgoritmoOtimo) ((AlgoritmoOtimo) algo).carregarReferencias(referencias);
             for (int pagina : referencias) algo.accesso(pagina);
             resultados.add(new ResultadoSimulacao(nomeWorkload, entry.getKey(), frames, algo.getPageFaults(), referencias.size()));
         }
@@ -202,8 +205,6 @@ public class Simulator {
 
     //Relatorio TXT
     private static void gerarRelatorioTxt(List<ResultadoSimulacao> resultados, Map<String, String> descricoes) throws Exception {
-        File pastaResults = new File("results");
-        if (!pastaResults.exists()) pastaResults.mkdir();
 
         BufferedWriter bw = new BufferedWriter(new FileWriter("results/simulation_results.txt"));
 
