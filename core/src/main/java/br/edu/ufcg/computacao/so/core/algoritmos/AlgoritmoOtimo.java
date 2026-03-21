@@ -27,7 +27,8 @@ public class AlgoritmoOtimo implements AlgoritmoSubstituicaoPages {
      * Índice de usos futuros: page → lista de posições (em ordem crescente)
      * onde a página aparece na sequência de referências.
      */
-    private Map<Integer, List<Integer>> usosNextos;
+    private final Map<Integer, List<Integer>> usosNextos;
+    private List<Integer> referencias = new ArrayList<>();
 
     public AlgoritmoOtimo(int capacity) {
         this.capacity     = capacity;
@@ -44,6 +45,7 @@ public class AlgoritmoOtimo implements AlgoritmoSubstituicaoPages {
      * @param referencias sequência completa de referências de páginas
      */
     public void carregarReferencias(List<Integer> referencias) {
+        this.referencias = referencias;
         usosNextos.clear();
         for (int i = 0; i < referencias.size(); i++) {
             int page = referencias.get(i);
@@ -116,5 +118,6 @@ public class AlgoritmoOtimo implements AlgoritmoSubstituicaoPages {
         usosNextos.clear();
         pageFaults = 0;
         posicaoAtual = 0;
+        carregarReferencias(this.referencias);
     }
 }
