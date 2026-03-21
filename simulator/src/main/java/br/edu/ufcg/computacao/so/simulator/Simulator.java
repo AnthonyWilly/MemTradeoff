@@ -126,7 +126,7 @@ public class Simulator {
         System.out.println("Encontrados " + arquivosCsv.size() + " workloads. Iniciando simulacao...\n");
 
         List<ResultadoSimulacao> resultados = new ArrayList<>();
-        int[] tamanhosFrame = {4, 8, 16, 32};
+        int[] tamanhosFrame = {2, 4, 8, 16, 32, 64, 128};
         int totalSimulacoes = arquivosCsv.size() * tamanhosFrame.length;
         int concluidos = 0;
 
@@ -159,7 +159,6 @@ public class Simulator {
             if (!linha.trim().isEmpty()) sequencia.add(Integer.parseInt(linha.trim()));
         }
     }
-        br.close();
         return sequencia;
     }
 
