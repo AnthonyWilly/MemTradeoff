@@ -40,7 +40,8 @@ public class AlgoritmoLRU implements AlgoritmoSubstituicaoPages {
         if (frames.size() == capacity) {
             // Remove o primeiro elemento (LRU)
             Iterator<Integer> it = frames.iterator();
-            frames.remove(it.next());
+            it.next();
+            it.remove();
         }
 
         frames.add(page);
