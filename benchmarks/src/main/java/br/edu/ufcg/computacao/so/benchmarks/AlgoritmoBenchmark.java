@@ -81,11 +81,12 @@ public class AlgoritmoBenchmark {
 })
     private String workload;
 
-    @Param({"4", "8", "16", "32"})
+    @Param({"2", "4", "8", "16", "32", "64", "128"})
     private int frames;
 
     private int[] sequence;
     private List<Integer> sequenceList;
+    private AlgoritmoOtimo otimo; 
 
     @Setup(Level.Trial)
     public void setup() throws Exception {
@@ -94,6 +95,8 @@ public class AlgoritmoBenchmark {
         for (int i = 0; i < sequenceList.size(); i++) {
             sequence[i] = sequenceList.get(i);
         }
+        otimo = new AlgoritmoOtimo(frames);
+        otimo.carregarReferencias(sequenceList);
         System.gc();
     }
 
@@ -132,7 +135,6 @@ public class AlgoritmoBenchmark {
     @Benchmark
     public void benchOtimo(Blackhole blackhole) {
         AlgoritmoOtimo algo = new AlgoritmoOtimo(frames);
-        algo.carregarReferencias(sequenceList);
         for (int page : sequence) blackhole.consume(algo.accesso(page));
     }
 
