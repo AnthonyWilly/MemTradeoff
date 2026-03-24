@@ -7,14 +7,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Clock (Segunda Chance) — é como FIFO, mas com bit de "segunda chance".
+ * Clock é uma implementação otimizada do algoritmo Second Chance.
  *
- * Estrutura: buffer circular (array de slots) + ponteiro.
+ * Estrutura: array circular de slots + ponteiro (hand).
  *   Cada slot guarda: página + bit de referência.
  *
  * Regra de substituição:
- *   1. Se bit do slot atual == 1, zerar o bit, avançar o ponteiro (segunda chance).
- *   2. Se bit do slot atual == 0, este é a vítima; substituir e avançar o ponteiro.
+ *   1. Se bit do slot atual == 1: zerar o bit e avançar o ponteiro (segunda chance).
+ *   2. Se bit do slot atual == 0: este slot é a vítima; substituir e avançar o ponteiro.
  */
 public class AlgoritmoClock implements AlgoritmoSubstituicaoPages {
 
